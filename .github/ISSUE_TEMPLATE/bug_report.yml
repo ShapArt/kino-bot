@@ -1,0 +1,15 @@
+name: Bug report
+description: Опишите проблему
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Что произошло?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Как воспроизвести?
+  - type: textarea
+    attributes:
+      label: Скриншоты/логи
