@@ -1,0 +1,67 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 20%, #1f2937, #0f172a 60%);
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+}
+
+header p {
+  margin: 0 0 16px;
+  color: #9ca3af;
+}
+
+.card {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #1f2937;
+  overflow: hidden;
+}
+
+.poster-skeleton {
+  height: 220px;
+  background: linear-gradient(90deg, #1f2937 0%, #273449 50%, #1f2937 100%);
+}
+
+.card-body {
+  padding: 12px 14px 16px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+button {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.skip {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+button.like {
+  background: #10b981;
+  color: #0b1324;
+}
