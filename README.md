@@ -7,34 +7,33 @@
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
 
 ## RU
-Movie recommendations Telegram bot powered by TMDB integrations.
+**Слоган:** Рекомендации, которые работают
 
-### Зачем этот проект
-- Telegram-боты для реальных пользовательских сценариев
-- Ориентирован на практическое использование, а не «учебный шаблон».
-- Поддерживает единый стандарт качества профиля и репозиториев.
+Телеграм-бот рекомендаций кино с упором на быстрый путь от запроса к выбору фильма.
+
+### Что даёт проект
+- Быстрый запуск и понятный вход в задачу.
+- Практичный сценарий использования, а не «игрушечный» демо-кейс.
+- Поддерживаемая структура для роста и автоматизации.
 
 ### Быстрый старт
-- Создай виртуальное окружение
-- Установи зависимости из requirements.txt
-- Запусти основной модуль по инструкции репозитория
+- Открой README/структуру проекта.
+- Запусти команды из текущего репозитория.
+- Используй шаблоны в .github/ для стандартизированного вклада.
 
 ### Для кого
-- Разработчики backend/automation решений.
-- Команды, которым нужна понятная архитектура и предсказуемый запуск.
+- Инженеры, которым важен результат, а не шум.
+- Команды, ценящие скорость внедрения и качество кода.
 
 ## EN
-Movie recommendations Telegram bot powered by TMDB integrations.
+**Tagline:** Рекомендации, которые работают
 
-### Why this project
-- Telegram-боты для реальных пользовательских сценариев
-- Built for practical delivery, not just a demo.
-- Follows a consistent engineering quality standard.
+Movie recommendation bot with fast path from user intent to watch decision.
 
-### Quick start
-- Create virtual environment
-- Install requirements
-- Run main module from docs
+### Value proposition
+- Fast onboarding and clear project intent.
+- Production-minded structure for scaling and automation.
+- Consistent contribution and quality standards.
 
 ## Contribution
 See .github/CONTRIBUTING.md.
