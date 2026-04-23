@@ -1,75 +1,54 @@
-# Kino Bot (Telegram Mini App + TMDB)
+# kino-bot
 
-## ✨ Что умеет
+![License](https://img.shields.io/github/license/ShapArt/kino-bot)
+![Last Commit](https://img.shields.io/github/last-commit/ShapArt/kino-bot)
+![Language](https://img.shields.io/github/languages/top/ShapArt/kino-bot)
 
-- «Tinder для фильмов»: свайпы в мини-приложении, совпадения для пары/компании.
-- Импорт вишлистов TMDB/CSV, базовые рекомендации (жанры/популярность) с дальнейшим ML-улучшением.
-- Уведомления и напоминания через aiogram-бот, deep-link авторизация в mini app.
-- Совместные подборки: общий watchlist и «подбор для двоих».
+## EN Overview
+Movie lists/recommendations bot (TMDB etc.)
 
-## 🧠 Технологии
+## RU Описание
+Movie lists/recommendations bot (TMDB etc.)
 
-- Bot: Aiogram 3.x (deep-links, уведомления), rate-limit.
-- Mini App: React/Vite + Telegram Web Apps SDK (auth via initData).
-- Backend: FastAPI + Postgres, TMDB API proxy, кеширование, rate-limit.
-- Безопасность: TMDB ключ через ENV, gitleaks/pre-commit, minimal Actions permissions.
+## EN Features
+- Clear project purpose and maintainable structure.
+- Standardized community and contribution files.
+- Consistent documentation style across account repositories.
 
-## 🖼️ Демо
+## RU Возможности
+- Понятная цель проекта и поддерживаемая структура.
+- Стандартизированные файлы сообщества и вклада.
+- Единый стиль документации во всех репозиториях аккаунта.
 
-- TODO: добавить скрин/видео mini app и ссылку на стенд.
-
-## Архитектура
-
-- `bot/` — aiogram хэндлеры (/start, /help, webhook/polling).
-- `miniapp/` — фронт WebApp (React/Vite + TWA SDK, свайпы, история лайков).
-- `backend/` — FastAPI, TMDB proxy/search, user/watchlist APIs, Postgres.
-- `docs/` — overview, ci badge snippet; `assets/` — social preview.
-
-## Конфигурация
-
-- `.env.example`: `BOT_TOKEN`, `TMDB_API_KEY`, `DATABASE_URL`, `REDIS_URL`, `WEBAPP_ORIGIN`, `ALLOWED_ORIGINS`.
-- Заполнить `.env`, не коммитить секреты.
-
-### Локальный запуск
-
-Bot:
-
-```bash
+## EN Quick Start
 pip install -r requirements.txt
-python -m bot.main
-```
+python -m main
 
-Backend:
+## RU Быстрый старт
+pip install -r requirements.txt
+python -m main
 
-```bash
-cd backend
-pip install -e .[dev]
-uvicorn app.main:app --reload
-```
+## EN Project Structure
+- .github/ - templates, policy files, CI config.
+- Source files and assets are stored in repository root or feature directories.
 
-Docker Compose (backend+db+redis):
+## RU Структура проекта
+- .github/ - шаблоны, policy-файлы, конфиг CI.
+- Исходники и ресурсы находятся в корне или профильных директориях.
 
-```bash
-cd infra
-docker compose up --build
-```
+## EN Roadmap
+- Improve test coverage and automation.
+- Keep docs aligned with actual project behavior.
 
-## Тесты
+## RU Планы
+- Расширять покрытие тестами и автоматизацией.
+- Поддерживать документацию в актуальном состоянии.
 
-- План: bot/backend — `ruff check . && black --check . && mypy . && pytest` (после реализации); miniapp — `npm run lint && npm test` (после scaffold).
+## EN Contributing
+See .github/CONTRIBUTING.md.
 
-### Miniapp локально
+## RU Вклад
+См. .github/CONTRIBUTING.md.
 
-```bash
-cd miniapp
-npm install
-npm run dev
-```
-
-## Roadmap
-
-- Инициализировать miniapp (React/Vite + TWA SDK), бекенд FastAPI с TMDB proxy, schema (users, likes, matches).
-- Добавить свайпы/матчи, TMDB поиска/изображений, кеш.
-- Deep-link авторизация бота ↔ miniapp, напоминания.
-- Рекомендательный базовый слой (жанры/популярность), затем ML улучшения.
-- CI: lint/tests для bot/backend/miniapp; e2e playwright smoke.
+## License / Лицензия
+See LICENSE.
