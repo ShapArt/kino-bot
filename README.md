@@ -1,42 +1,46 @@
 # kino-bot
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
 
 ## EN
-Movie lists/recommendations bot (TMDB etc.)
+kino-bot — practical engineering project by ShapArt.
 
-This repository follows a modern professional standard: clear onboarding, strong documentation, and predictable contribution flow.
+This repository is part of a modern, portfolio-grade GitHub standard: strong structure, clear onboarding, and predictable contribution flow.
 
 ## RU
-Movie lists/recommendations bot (TMDB etc.)
+kino-bot — practical engineering project by ShapArt.
 
-Репозиторий оформлен по современному профессиональному стандарту: понятный старт, хорошая документация и предсказуемый процесс вклада.
+Этот репозиторий оформлен в современном portfolio-стиле: сильная структура, понятный старт и прозрачный процесс вклада.
 
-## Key Features / Ключевые возможности
-- Clear onboarding and practical setup steps.
-- Standard community health files in .github/.
-- Scalable structure for future improvements and CI growth.
+## Highlights / Что важно
+- Fast onboarding with clear usage entry points.
+- Standardized `.github` health files and contribution rules.
+- Ready for scaling with CI, tests, and roadmap growth.
 
 ## Tech Stack / Технологии
-- Python`n- FastAPI / aiogram / automation scripts (depends on repo)`n- Docker-ready structure
+- Python
+- Automation, bots, and API tooling
+- Production-ready project layout
 
 ## Quick Start / Быстрый старт
-- Create virtual env`n- Install requirements`n- Run main module
+- Create virtual environment
+- Install dependencies
+- Run main module/script
 
-## Project Layout / Структура
-- README.md - project overview and setup.
-- .github/ - policies, issue/PR templates, CI workflow.
-- Source files - implementation details and assets.
+## Structure / Структура
+- `README.md` - overview and usage entry point.
+- `.github/` - policies, templates, workflow config.
+- Source directories - implementation and assets.
 
 ## Roadmap / Планы
-- Improve verification and automated checks.
-- Expand examples and usage scenarios.
-- Keep documentation aligned with real behavior.
+- Improve verification and automation coverage.
+- Expand examples and practical scenarios.
+- Keep docs synchronized with real behavior.
 
 ## Contributing / Вклад
-See .github/CONTRIBUTING.md.
+See `.github/CONTRIBUTING.md`.
 
 ## License / Лицензия
-See LICENSE.
+See `LICENSE`.
