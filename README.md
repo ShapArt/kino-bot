@@ -2,10 +2,9 @@
 
 ![Social Preview](https://raw.githubusercontent.com/ShapArt/kino-bot/main/.github/social-preview.png)
 
-
-[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
 
 ## EN
 Movie recommendations Telegram bot powered by TMDB integrations.
@@ -40,6 +39,9 @@ See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
 See LICENSE.
+
+
+
 
 
 
