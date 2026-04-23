@@ -1,54 +1,42 @@
 # kino-bot
 
-![License](https://img.shields.io/github/license/ShapArt/kino-bot)
-![Last Commit](https://img.shields.io/github/last-commit/ShapArt/kino-bot)
-![Language](https://img.shields.io/github/languages/top/ShapArt/kino-bot)
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
 
-## EN Overview
+## EN
 Movie lists/recommendations bot (TMDB etc.)
 
-## RU Описание
+This repository follows a modern professional standard: clear onboarding, strong documentation, and predictable contribution flow.
+
+## RU
 Movie lists/recommendations bot (TMDB etc.)
 
-## EN Features
-- Clear project purpose and maintainable structure.
-- Standardized community and contribution files.
-- Consistent documentation style across account repositories.
+Репозиторий оформлен по современному профессиональному стандарту: понятный старт, хорошая документация и предсказуемый процесс вклада.
 
-## RU Возможности
-- Понятная цель проекта и поддерживаемая структура.
-- Стандартизированные файлы сообщества и вклада.
-- Единый стиль документации во всех репозиториях аккаунта.
+## Key Features / Ключевые возможности
+- Clear onboarding and practical setup steps.
+- Standard community health files in .github/.
+- Scalable structure for future improvements and CI growth.
 
-## EN Quick Start
-pip install -r requirements.txt
-python -m main
+## Tech Stack / Технологии
+- Python`n- FastAPI / aiogram / automation scripts (depends on repo)`n- Docker-ready structure
 
-## RU Быстрый старт
-pip install -r requirements.txt
-python -m main
+## Quick Start / Быстрый старт
+- Create virtual env`n- Install requirements`n- Run main module
 
-## EN Project Structure
-- .github/ - templates, policy files, CI config.
-- Source files and assets are stored in repository root or feature directories.
+## Project Layout / Структура
+- README.md - project overview and setup.
+- .github/ - policies, issue/PR templates, CI workflow.
+- Source files - implementation details and assets.
 
-## RU Структура проекта
-- .github/ - шаблоны, policy-файлы, конфиг CI.
-- Исходники и ресурсы находятся в корне или профильных директориях.
+## Roadmap / Планы
+- Improve verification and automated checks.
+- Expand examples and usage scenarios.
+- Keep documentation aligned with real behavior.
 
-## EN Roadmap
-- Improve test coverage and automation.
-- Keep docs aligned with actual project behavior.
-
-## RU Планы
-- Расширять покрытие тестами и автоматизацией.
-- Поддерживать документацию в актуальном состоянии.
-
-## EN Contributing
+## Contributing / Вклад
 See .github/CONTRIBUTING.md.
-
-## RU Вклад
-См. .github/CONTRIBUTING.md.
 
 ## License / Лицензия
 See LICENSE.
