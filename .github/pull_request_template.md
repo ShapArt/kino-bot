@@ -1,13 +1,9 @@
-## Что сделано
+## Summary
+- 
 
--
+## Changes
+- 
 
-## Зачем
-
--
-
-## Чеклист
-
-- [ ] Conventional commit
-- [ ] Тесты/линтеры проходят
-- [ ] Обновил(а) README/Docs при необходимости
+## Verification
+- [ ] Local checks passed
+- [ ] Docs updated if needed
