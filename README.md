@@ -1,44 +1,42 @@
 # kino-bot
 
-![Social Preview](https://raw.githubusercontent.com/ShapArt/kino-bot/main/.github/social-preview.png)
+Telegram bot project for reducing the friction between “what should I watch?” and an actual movie choice.
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/kino-bot?style=for-the-badge)](https://github.com/ShapArt/kino-bot/blob/main/LICENSE)
+## What this repository is
+
+`kino-bot` is a small user-facing bot project around movie discovery or recommendation workflows.
+
+It is best presented as a focused Telegram utility: a bot that turns a lightweight user request into a more structured watch decision.
+
+## Why this project exists
+
+Movie choice is often a small but repeated problem: too many options, too much browsing, and no clear decision path.
+
+A Telegram bot is a useful interface for this because it can keep the interaction simple:
+
+- ask or receive a preference;
+- narrow the choice;
+- return a compact recommendation;
+- keep the user inside a familiar chat interface.
+
+## Portfolio positioning
+
+This is a supporting bot project.
+
+It should not be inflated into a large recommendation platform unless the repository contains real recommendation logic, external API integration, persistent profiles, or ranking models. As a small project, it works well as evidence of Telegram bot UX thinking and user-facing automation.
+
+## What would make it stronger
+
+- bot command list;
+- example conversation flow;
+- note on recommendation source or logic;
+- deployment instructions;
+- screenshots of the interaction.
 
 ## RU
-**Слоган:** Рекомендации, которые работают
 
-Телеграм-бот рекомендаций кино с упором на быстрый путь от запроса к выбору фильма.
-
-### Что даёт проект
-- Быстрый запуск и понятный вход в задачу.
-- Практичный сценарий использования, а не «игрушечный» демо-кейс.
-- Поддерживаемая структура для роста и автоматизации.
-
-### Быстрый старт
-- Открой README/структуру проекта.
-- Запусти команды из текущего репозитория.
-- Используй шаблоны в .github/ для стандартизированного вклада.
-
-### Для кого
-- Инженеры, которым важен результат, а не шум.
-- Команды, ценящие скорость внедрения и качество кода.
-
-## EN
-**Tagline:** Рекомендации, которые работают
-
-Movie recommendation bot with fast path from user intent to watch decision.
-
-### Value proposition
-- Fast onboarding and clear project intent.
-- Production-minded structure for scaling and automation.
-- Consistent contribution and quality standards.
-
-## Contribution
-See .github/CONTRIBUTING.md.
+Небольшой Telegram-бот про выбор кино. Сильнее всего он смотрится как понятный user-facing utility: пользователь быстро приходит от запроса к варианту фильма без лишнего браузинга.
 
 ## License
-See LICENSE.
 
-
+See `LICENSE`.
